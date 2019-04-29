@@ -1,0 +1,46 @@
+/* Components/toast.wxss */
+/* .wx-toast-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+  bottom: 100rpx;
+  opacity: 0;
+}
+.wx-toast-content {
+  max-width: 80%;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  background: rgba(0, 0, 0, 0.6);
+}
+.wx-toast-toast {
+  height: 100%;
+  width: 100%;
+  color:#fff;
+  font-size: 20rpx;
+  text-align: center;
+} */
+
+.wx-toast-box{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  bottom:80rpx;
+  opacity: 0;
+}
+.wx-toast-content{
+  max-width: 80%;
+  border-radius:20rpx;
+  padding: 20rpx;
+  background: rgba(0, 0, 0, 0.7);
+}
+.wx-toast-toast{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 28rpx;
+  text-align: center;
+}

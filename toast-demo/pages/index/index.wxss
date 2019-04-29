@@ -1,0 +1,6 @@
+/**index.wxss**/
+
+.toast,.promise {
+  margin-bottom: 10px;
+  width: 70%;
+}

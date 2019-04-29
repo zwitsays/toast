@@ -1,0 +1,4 @@
+
+<button class='toast' type='primary' bindtap='showMyToast'>toast</button>
+
+<toast id="toast"></toast>
