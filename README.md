@@ -7,5 +7,5 @@
     "toast":"../../Components/toast/toast"
  }
  
-3.在index.wxml 页面中调用toast控件即可
-4.在index.js 页面别忘了调用showToast方法
+3.在index.wxml 页面中调用toast控件即可<toast id="toast"></toast>
+4.在index.js 第一步 this.toast = this.selectComponent("#toast") 第二步this.toast.showToast('我就是一个自定义的toast，没有长度限制哦')即可
